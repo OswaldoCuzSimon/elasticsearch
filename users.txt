@@ -1,0 +1,249 @@
+  [
+  {
+       _id: 1,
+       name: "sue",
+       age: 19,
+       type: 1,
+       status: "P",
+       favorites: { artist: "Picasso", food: "pizza" },
+       finished: [ 17, 3 ],
+       badges: [ "blue", "black" ],
+       points: [
+          { points: 85, bonus: 20 },
+          { points: 85, bonus: 10 }
+       ]
+     },
+     {
+       _id: 2,
+       name: "bob",
+       age: 42,
+       type: 1,
+       status: "A",
+       favorites: { artist: "Miro", food: "meringue" },
+       finished: [ 11, 25 ],
+       badges: [ "green" ],
+       points: [
+          { points: 85, bonus: 20 },
+          { points: 64, bonus: 12 }
+       ]
+     },
+     {
+       _id: 3,
+       name: "ahn",
+       age: 22,
+       type: 2,
+       status: "A",
+       favorites: { artist: "Cassatt", food: "cake" },
+       finished: [ 6 ],
+       badges: [ "blue", "red" ],
+       points: [
+          { points: 81, bonus: 8 },
+          { points: 55, bonus: 20 }
+       ]
+     },
+     {
+       _id: 4,
+       name: "xi",
+       age: 34,
+       type: 2,
+       status: "D",
+       favorites: { artist: "Chagall", food: "chocolate" },
+       finished: [ 5, 11 ],
+       badges: [ "red", "black" ],
+       points: [
+          { points: 53, bonus: 15 },
+          { points: 51, bonus: 15 }
+       ]
+     },
+     {
+       _id: 5,
+       name: "xyz",
+       age: 23,
+       type: 2,
+       status: "D",
+       favorites: { artist: "Noguchi", food: "nougat" },
+       finished: [ 14, 6 ],
+       badges: [ "orange" ],
+       points: [
+          { points: 71, bonus: 20 }
+       ]
+     },
+     {
+       _id: 6,
+       name: "abc",
+       age: 43,
+       type: 1,
+       status: "A",
+       favorites: { food: "pizza", artist: "Picasso" },
+       finished: [ 18, 12 ],
+       badges: [ "black", "blue" ],
+       points: [
+          { points: 78, bonus: 8 },
+          { points: 57, bonus: 7 }
+       ]
+     },
+     {
+       _id: 7,
+       name: "alex",
+       age: 25,
+       type: 1,
+       status: "C",
+       favorites: { artist: "Van Gogh", food: "hamburger" },
+       finished: [ 17, 3 ],
+       badges: [ "white", "red","blue", "yellow"],
+       points: [
+          { points: 65, bonus: 34 },
+          { points: 41, bonus: 16 },
+		{ points: 67, bonus: 23 },
+		  { points: 35, bonus: 18 }
+       ]
+     },
+     {
+       _id: 8,
+       name: "dani",
+       age: 21,
+       type: 1,
+       status: "A",
+       favorites: { artist: "shakira", food: "lasagna" },
+       finished: [ 11, 25 ],
+       badges: [ "green","purple","cyan","red","white","yellow","gray" ],
+       points: [
+          { points: 86, bonus: 24 },
+          { points: 54, bonus: 62 },
+			{ points: 36, bonus: 13 },
+          { points: 47, bonus: 5 },
+		  { points: 25, bonus: 10 }
+       ]
+     },
+     {
+       _id: 9,
+       name: "kevin",
+       age: 22,
+       type: 2,
+       status: "A",
+       favorites: { artist: "daddy yanke", food: "cake" },
+       finished: [ 6 ],
+       badges: [ "blue", "red","orage","indigo","brown","violet","magenta" ],
+       points: [
+          { points: 81, bonus: 8 },
+          { points: 55, bonus: 10 },
+			{ points: 57, bonus: 25 },
+		  { points: 35, bonus: 10 }
+       ]
+     },
+     {
+       _id: 10,
+       name: "brian",
+       age: 34,
+       type: 2,
+       status: "D",
+       favorites: { artist: "Valentin Elizalde", food: "chocolate" },
+       finished: [ 5, 11 ],
+       badges: [ "red", "indigo","brown","violet","pink","magenta","black" ],
+       points: [
+          { points: 83, bonus: 85 },
+          { points: 71, bonus: 55 },
+			{ points: 16, bonus: 3 },
+          { points: 30, bonus: 5 },
+		  { points: 20, bonus: 9 }
+       ]
+     },
+     {
+       _id: 11,
+       name: "maria",
+       age: 25,
+       type: 2,
+       status: "D",
+       favorites: { artist: "komander", food: "enchiladas" },
+       finished: [ 14, 6 ],
+       badges: [ "orange" ,"magenta","blue","yellow","purple","red", "indigo"],
+       points: [
+          { points: 35, bonus: 25 },
+			{ points: 67, bonus: 3 },
+          { points: 34, bonus: 5 },
+		  { points: 43, bonus: 8 }
+       ]
+     },
+     {
+       _id: 12,
+       name: "jeni",
+       age: 50,
+       type: 1,
+       status: "A",
+       favorites: { food: "sushi", artist: "Juanes" },
+       finished: [ 18, 12 ],
+       badges: [ "black", "violet","pink","magenta","blue","yellow","red"],
+       points: [
+          { points: 76, bonus: 15 },
+          { points: 53, bonus: 22 },
+		  { points: 22, bonus: 12 },
+          { points: 11, bonus: 20 }
+       ]
+     },
+	{
+       _id: 13,
+       name: "britany",
+       age: 22,
+       type: 2,
+       status: "A",
+       favorites: { artist: "wisin", food: "pescado" },
+       finished: [ 6 ],
+       badges: [ "blue", "red","orage","indigo","brown","violet","magenta" ],
+       points: [
+          { points: 81, bonus: 8 },
+          { points: 55, bonus: 20 },
+			{ points: 45, bonus: 25 },
+			{ points: 18, bonus: 13 },
+          { points: 42, bonus: 10 }
+       ]
+     },
+     {
+       _id: 14,
+       name: "alexa",
+       age: 34,
+       type: 2,
+       status: "D",
+       favorites: { artist: "Valentin Elizalde", food: "pechuga" },
+       finished: [ 5, 11 ],
+       badges: [ "red", "indigo","brown","violet","pink","magenta","black" ],
+       points: [
+          { points: 83, bonus: 15 },
+          { points: 35, bonus: 25 },
+			{ points: 48, bonus: 13 },
+          { points: 40, bonus: 10 },
+		  { points: 75, bonus: 10 }
+       ]
+     },
+     {
+       _id: 15,
+       name: "sandra",
+       age: 25,
+       type: 2,
+       status: "D",
+       favorites: { artist: "maluma", food: "camarones" },
+       finished: [ 14, 6 ],
+       badges: [ "brown","violet","orange" ,"magenta","blue","cyan","purple","gray", "black"],
+       points: [
+          { points: 98, bonus: 15 },
+			{ points: 67, bonus: 12 },
+          { points: 87, bonus: 5 },
+		  { points: 89, bonus: 23 }
+       ]
+     },
+     {
+       _id: 16,
+       name: "carmen",
+       age: 33,
+       type: 1,
+       status: "A",
+       favorites: { food: "caviar", artist: "Justin biber" },
+       finished: [ 18, 12 ],
+       badges: [ "purple", "violet","gray","magenta","cyan","yellow","red"],
+       points: [
+          { points: 39, bonus: 2 },
+          { points: 75, bonus: 3 },
+		  { points: 23, bonus: 32 },
+          { points: 17, bonus: 21 }
+       ]
+     }
+  ]
